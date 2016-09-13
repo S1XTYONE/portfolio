@@ -1,0 +1,182 @@
+@font-face {
+  font-family: HighTide;
+  src: url(fonts/HighTide.otf);
+}
+/* line 5, ../sass/main.sass */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 11, ../sass/main.sass */
+body {
+  font-family: Tahoma;
+}
+
+/* line 14, ../sass/main.sass */
+section {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 19, ../sass/main.sass */
+.glyphicon {
+  color: #fff;
+}
+
+/* line 22, ../sass/main.sass */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 25, ../sass/main.sass */
+#main {
+  background: url(http://www.mouseart.org/images/slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+/* line 31, ../sass/main.sass */
+.first {
+  padding: 10% 0;
+}
+
+/* line 34, ../sass/main.sass */
+#about {
+  background: url(../images/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 39, ../sass/main.sass */
+.words {
+  text-align: center;
+}
+/* line 41, ../sass/main.sass */
+.words p {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* line 46, ../sass/main.sass */
+.nav-custom li {
+  list-style: none;
+  padding: 5px 10px;
+}
+/* line 49, ../sass/main.sass */
+.nav-custom li a {
+  color: #fff;
+  transition: 1s;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Tahoma;
+}
+/* line 55, ../sass/main.sass */
+.nav-custom li a:hover {
+  color: red;
+  transition: 1s;
+}
+
+/* line 59, ../sass/main.sass */
+.navbar-brand {
+  color: #fff;
+  transition: 1s;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Tahoma;
+}
+/* line 65, ../sass/main.sass */
+.navbar-brand:hover {
+  color: red;
+  ransition: 1s;
+}
+
+/* line 69, ../sass/main.sass */
+.need {
+  color: #fff;
+  font-size: 54px;
+}
+
+/* line 73, ../sass/main.sass */
+.fs-button {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-family: Tahoma;
+  color: #fff;
+  transition: 1s;
+}
+/* line 81, ../sass/main.sass */
+.fs-button:hover {
+  color: #fff;
+  background: #cc181e;
+  border-color: #cc181e;
+  transition: 1s;
+}
+
+/* line 87, ../sass/main.sass */
+.fs-button-inverse {
+  border: 1px solid #cc181e;
+  border-radius: 50px;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-family: Tahoma;
+  color: #cc181e;
+  transition: 1s;
+}
+/* line 95, ../sass/main.sass */
+.fs-button-inverse:hover {
+  color: #cc181e;
+}
+
+/* line 98, ../sass/main.sass */
+#comments {
+  background: url(../images/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0;
+}
+
+/* line 104, ../sass/main.sass */
+#works {
+  padding: 50px;
+}
+
+/* line 107, ../sass/main.sass */
+.icon-about {
+  padding: 10px;
+}
+
+/* line 110, ../sass/main.sass */
+.about-wrapper {
+  padding: 5% 0;
+}
+
+/* line 113, ../sass/main.sass */
+.about-items {
+  padding: 10% 0;
+}
+
+/* line 116, ../sass/main.sass */
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  border: 2px solid #000;
+  color: #000;
+}
+
+/* line 125, ../sass/main.sass */
+.review-img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #cc181e;
+  border-radius: 50%;
+}
